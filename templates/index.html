@@ -17,6 +17,7 @@
 	<meta property="og:description" content="Free HTML5 Template created by Dominik Serafin.">
 	<meta property="og:url" content="http://serafin.io/aurora-template/">
 	<meta property="og:image" content="http://serafin.io/aurora-template/content/og_image.png">
+	<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 
 	<!-- Twitter Card -->
 	<!--
@@ -109,19 +110,13 @@
 			</a>
 
 			<div class="header__social-icons">
-				<a target="_blank" href="https://dribbble.com/DominikSerafin">
-					<i class="fa fa-dribbble"></i>
-				</a>
-				<a target="_blank" href="https://twitter.com/SerafinDominik">
+				<a target="_blank" href="https://twitter.com/adityaalifn">
 					<i class="fa fa-twitter"></i>
 				</a>
-				<a target="_blank" href="https://www.behance.net/dominikserafin">
-					<i class="fa fa-behance"></i>
-				</a>
-				<a target="_blank" href="https://github.com/DominikSerafin/">
+				<a target="_blank" href="https://github.com/adityaalifn/">
 					<i class="fa fa-github"></i>
 				</a>
-				<a target="_blank" href="https://linkedin.com/pub/dominik-serafin/a1/672/93b">
+				<a target="_blank" href="https://linkedin.com/in/adityaalifn">
 					<i class="fa fa-linkedin"></i>
 				</a>
 			</div>
@@ -145,24 +140,20 @@
 			<div class="hero__content-wrapper">
 				<div class="hero__title-wrapper">
 					<div class="hero__title-large">Welcome!</div>
-					<div class="hero__title-small">This is the Aditya Alif Nugraha's personal website. Support his journey to the space of Computer Science. The adventure is far from over... What will this astronaut do next, who knows??</div>
+					<h2>This is the Aditya Alif Nugraha's personal website. Support his journey to the space of Computer Science. The adventure
+						is far from over... What will this astronaut do next, who knows??</h2>
 				</div>
 				<div class="hero__photo-wrapper">
 					<div class="hero__photo">
 						<!--<div class="hero__hat">&nbsp;</div>-->
 					</div>
 				</div>
-				<div class="hero__description">
-					It was created for my
-					<a target="_blank" href="http://serafin.io/?utm_source=Aurora-Template&utm_medium=Hero-Desc&utm_campaign=Freebie">personal portfolio</a> (but never used) and now I'm releasing it for free. Edit and use this template as you want, except
-					selling or crediting it as your own. It would also be cool if you could share this. Did I forgot to mention that it
-					also includes small easter egg? It does.
-				</div>
+
 				<div class="hero__call-to-action">
-					<a href="https://goo.gl/lp9Gd6" target="_blank" class="hero__button  ghost-button  ghost-button--hero">Hire Me!
+					<a href="{{ url_for('static', filename='assets/Aditya Alif Nugraha - Resume.pdf') }}" target="_blank" class="hero__button  ghost-button  ghost-button--hero">Hire Me!
 						<i class="fa fa-download"></i>
 					</a>
-					<a href="http://serafin.io/?utm_source=Aurora-Template&utm_medium=Hero-Alt-Button&utm_campaign=Freebie" target="_blank" class="hero__alt-button">...or find out more about me.</a>
+					<a href="https://www.facebook.com/adityaalifn" target="_blank" class="hero__alt-button">...or find out more about me.</a>
 				</div>
 			</div>
 		</div>
@@ -276,7 +267,8 @@
 						<div class="features__text">
 							<div class="features__title">Responsive and Mobile Friendly</div>
 							<div class="features__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ducimus, nemo corrupti voluptas ea! Placeat quidem
-								magnam.</div>
+								magnam.
+							</div>
 						</div>
 					</div>
 					<div class="features__element">
@@ -306,7 +298,8 @@
 						<div class="features__text">
 							<div class="features__title">Unique for Every Client</div>
 							<div class="features__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ducimus, nemo corrupti voluptas ea! Placeat quidem
-								magnam.</div>
+								magnam.
+							</div>
 						</div>
 					</div>
 					<div class="features__element">
@@ -696,22 +689,22 @@
 
 				<div class="contact__icons-wrapper">
 					<div class="contact__icon">
-						<a target="_blank" href="mailto:dominikdsgnr@gmail.com">
+						<a target="_blank" href="mailto:adityaalifnugraha@gmail.com">
 							<i class="fa fa-envelope"></i>
 						</a>
-						<div class="contact__icon-description">DominikDsgnr@gmail.com</div>
+						<div class="contact__icon-description">adityaalifnugraha@gmail.com</div>
 					</div>
 					<div class="contact__icon">
-						<a target="_blank" href="https://twitter.com/SerafinDominik">
+						<a target="_blank" href="https://twitter.com/adityaalifn">
 							<i class="fa fa-twitter"></i>
 						</a>
-						<div class="contact__icon-description">@SerafinDominik</div>
+						<div class="contact__icon-description">@adityaalifn</div>
 					</div>
 					<div class="contact__icon">
-						<a target="_blank" href="https://dribbble.com/DominikSerafin">
-							<i class="fa fa-dribbble"></i>
+						<a target="_blank" href="https://linkedin.com/in/adityaalifn">
+							<i class="fa fa-linkedin"></i>
 						</a>
-						<div class="contact__icon-description">DominikSerafin</div>
+						<div class="contact__icon-description">Aditya Alif Nugraha</div>
 					</div>
 				</div>
 
@@ -731,7 +724,7 @@
 							<div class="contact__input-wrapper  contact__input-wrapper--name">
 								<label for="sender_name" class="contact__label">Your Name</label>
 								<div class="contact__response-ajax-text">&nbsp;</div>
-								<input id="sender_name" type="text" placeholder="John Kowalski" required>
+								<input id="sender_name" type="text" placeholder="John Doe" required>
 							</div>
 							<div class="contact__input-wrapper  contact__input-wrapper--email">
 								<label for="sender_email" class="contact__label">Your E-mail</label>
