@@ -210,7 +210,8 @@
 					<div class="experience__icon  experience__icon--javascript">
 						<div class="experience__icon-description">JavaScript</div>
 					</div>
-					<div class="experience__icon  experience__icon--sass">
+					<div class="experience__icon experience__icon--golang">
+						<img src="">
 						<div class="experience__icon-description">Golang</div>
 					</div>
 					<!--
@@ -350,8 +351,9 @@
 					<div class="showcase__thumbnails-wrapper">
 
 						<!-- normal -->
-						<img data-project="p1" class="showcase__thumb  showcase__thumb--first  showcase__thumb--active" src="http://www.pcquest.com/wp-content/uploads/2017/10/machine_learning.jpg"/>
-						<img data-project="p2" class="showcase__thumb" src="{{ url_for('static', filename='content/project_placeholder_thumb.jpg') }}">
+						<img data-project="p1" class="showcase__thumb  showcase__thumb--first  showcase__thumb--active" src="http://www.pcquest.com/wp-content/uploads/2017/10/machine_learning.jpg"
+						/>
+						<img data-project="p2" class="showcase__thumb" src="{{ url_for('static', filename='content/pcd-placeholder.png') }}">
 						<img data-project="p3" class="showcase__thumb" src="{{ url_for('static', filename='content/project_placeholder_thumb.jpg') }}">
 						<img data-project="p4" class="showcase__thumb" src="{{ url_for('static', filename='content/project_placeholder_thumb.jpg') }}">
 						<img data-project="p5" class="showcase__thumb" src="{{ url_for('static', filename='content/project_placeholder_thumb.jpg') }}">
@@ -414,7 +416,9 @@
 								<div class="showcase__point">
 									<div class="showcase__point-title">Details</div>
 									<div class="showcase__point-details-excerpt">
-										Analyzing, designing, implementing machine learning model. That model are Regression, Support Vector Machine (SVM), Naive Bayes, Artificial Neural Network (ANN), Hierarchical Clustering, Self-organizing map (SOM), K-Means, Reinforcement Learning, and Random Forest.
+										Analyzing, designing, implementing machine learning model. That model are Regression, Support Vector Machine (SVM), Naive
+										Bayes, Artificial Neural Network (ANN), Hierarchical Clustering, Self-organizing map (SOM), K-Means, Reinforcement
+										Learning, and Random Forest.
 										<!--<span class="showcase__ellipsis"></span>-->
 										<!-- <span class="showcase__readmore">more</span> -->
 									</div>
@@ -437,6 +441,12 @@
 								<ul class="rslides">
 
 									<li>
+										<a href="{{ url_for('static', filename='content/pcd-project2-slide01.png') }}" target="_blank">
+											<img src="{{ url_for('static', filename='content/pcd-project2-slide01.png') }}">
+										</a>
+									</li>
+
+									<!-- <li>
 										<a href="{{ url_for('static', filename='content/project_placeholder_slide.jpg') }}" target="_blank">
 											<img src="{{ url_for('static', filename='content/project_placeholder_slide.jpg') }}">
 										</a>
@@ -452,45 +462,40 @@
 										<a href="{{ url_for('static', filename='content/project_placeholder_slide.jpg') }}" target="_blank">
 											<img src="{{ url_for('static', filename='content/project_placeholder_slide.jpg') }}">
 										</a>
-									</li>
-
-									<li>
-										<a href="{{ url_for('static', filename='content/project_placeholder_slide.jpg') }}" target="_blank">
-											<img src="{{ url_for('static', filename='content/project_placeholder_slide.jpg') }}">
-										</a>
-									</li>
+									</li> -->
 
 								</ul>
 							</div>
 							<div class="showcase__infos-wrapper">
-								<div class="showcase__title">Second Project</div>
-								<div class="showcase__point">
+								<div class="showcase__title">Digital Image Processing</div>
+								<div class="showcase__title-description">Course Project</div>
+
+								<!-- <div class="showcase__point">
 									<div class="showcase__point-title">Section Title</div>
 									<div class="showcase__point-description">
 										Section Content
 									</div>
-								</div>
+								</div> -->
 								<div class="showcase__point">
-									<div class="showcase__point-title">Section Title</div>
+									<div class="showcase__point-title">Technologies Used</div>
 									<div class="showcase__point-description">
-										HTML, CSS, SASS, JavaScript, jQuery, WordPress, Google Maps Api v3
+										Python, HTML, CSS, Numpy, Flask
 									</div>
 								</div>
 								<div class="showcase__point">
 									<div class="showcase__point-title">Section Title</div>
 									<div class="showcase__point-details-excerpt">
-										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-										Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-										<span class="showcase__ellipsis">...</span>
-										<span class="showcase__readmore">more</span>
+										Processing image that uploaded from user. This project including image cropping, rotating, sharpening, convolutioning, etc. (This project is on process)
+										<!-- <span class="showcase__ellipsis">...</span> -->
+										<!-- <span class="showcase__readmore">more</span> -->
 									</div>
-									<div class="showcase__point-details-full">
+									<!-- <div class="showcase__point-details-full">
 										ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 										Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 										<span class="showcase__readless">less</span>
-									</div>
+									</div> -->
 								</div>
-								<a target="_blank" href="//example.com" class="showcase__button  ghost-button  ghost-button--realizations">Visit Website</a>
+								<a target="_blank" href="https://pcd-adityaalifn-1301154183.herokuapp.com/" class="showcase__button  ghost-button  ghost-button--realizations">Visit Website</a>
 							</div>
 						</div>
 

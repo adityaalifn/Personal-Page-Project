@@ -74,7 +74,7 @@
 				float: left;
 				width: 20%;
 				height: 120px;
-				background-image: url("../img/exp_html5.svg");
+				background-image: url("../img/exp/exp_html5.svg");
 				background-size: 100px 100px;
 				background-position: 50%;
 				//filter: drop-shadow(0 0 7px rgba(0,0,0,0.2));
@@ -91,6 +91,7 @@
 				&--fireworks { background-image: url("../img/exp/exp_fireworks.svg"); }
 				&--bootstrap { background-image: url("../img/exp/exp_bootstrap.svg"); }
 				&--foundation { background-image: url("../img/exp/exp_foundation-glasses.svg"); }
+				&--golang { background-image: url("../img/exp/golang.png"); }
 
 			}
 
